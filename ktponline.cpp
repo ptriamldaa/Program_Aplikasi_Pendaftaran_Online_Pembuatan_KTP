@@ -35,8 +35,8 @@ void formulir_ktp (){
     cout << "\tJumlah KTP Yang Akan Di Buat : ";
     cin  >> pilih[0];
     cout << endl;
-    for (int x=0; x<pilih[0]; x++){
-        cout << "\t\tData Ke-" << x+1 << endl;
+    for (int x = 0; x < pilih[0]; x++){
+        cout << "\t\tData Ke-" << x + 1 << endl;
         cout << "\t\tNIK [MAX 8 DIGIT]      : ";
         cin  >> ktp[x].nik;
         cout << "\t\tNama                   : ";
@@ -99,26 +99,26 @@ void hasilKtp (){
     cout << "\t\t\t                            HASIL KTP                           " << endl;
     cout << "\t\t\t================================================================" << endl << endl;
     for (int x = 0; x < pilih[0]; x++){
-    cout << "\t\tE-KTP " << x + 1 << endl;
-    cout << "\t\t=============================================================" << endl;
-    cout << "\t\t|                      PROVINSI JAWA BARAT                  |" << endl;
-    cout << "\t\t|                      KABUPATEN SUKABUMI                   |" << endl;
-    cout << "\t\t|                                                           |" << endl;
-    cout << "\t\t|NIK               : " << ktp[x].nik              << "\t\t\t\t    |      " << endl;
-    cout << "\t\t|Nama              : " << ktp[x].nama             << "\t\t\t\t    |      " << endl;
-    cout << "\t\t|Tempat/Tgl Lahir  : " << ktp[x].tempatLahir      << ", " << ktp[x].tanggalLahir << "\t\t    |" << endl;
-    cout << "\t\t|Jenis Kelamin     : " << ktp[x].jenisKelamin;
-    cout << "\t  Golongan Darah   : "   << ktp[x].goldar           << "\t    |            " << endl;
-    cout << "\t\t|Alamat            : " << ktp[x].alamat           << "\t\t\t\t    |      " << endl;
-    cout << "\t\t|\tRT/RW             : " << ktp[x].rtrw           << "\t\t\t    |        " << endl;
-    cout << "\t\t|\tKel/Desa          : " << ktp[x].keldes         << "\t\t\t    |        " << endl;
-    cout << "\t\t|\tKecamatan         : " << ktp[x].kec            << "\t\t\t    |        " << endl;
-    cout << "\t\t|Agama             : " << ktp[x].agama            << "\t\t\t\t    |      " << endl;
-    cout << "\t\t|Status Perkawinan : " << ktp[x].statusPernikahan << "\t\t\t\t\t    |    " << endl;
-    cout << "\t\t|Pekerjaan         : " << ktp[x].pekerjaan        << "\t\t\t\t    |      " << endl;
-    cout << "\t\t|Kewarganegaraan   : " << ktp[x].kewarganegaraan  << "\t\t\t\t    |      " << endl;
-    cout << "\t\t|BERLAKU           : SEUMUR HIDUP                           |            " << endl;
-    cout << "\t\t=============================================================" << endl << endl;
+        cout << "\t\tE-KTP " << x + 1 << endl;
+        cout << "\t\t=============================================================" << endl;
+        cout << "\t\t|                      PROVINSI JAWA BARAT                  |" << endl;
+        cout << "\t\t|                      KABUPATEN SUKABUMI                   |" << endl;
+        cout << "\t\t|                                                           |" << endl;
+        cout << "\t\t|NIK               : " << ktp[x].nik              << "\t\t\t\t    |      " << endl;
+        cout << "\t\t|Nama              : " << ktp[x].nama             << "\t\t\t\t    |      " << endl;
+        cout << "\t\t|Tempat/Tgl Lahir  : " << ktp[x].tempatLahir      << ", " << ktp[x].tanggalLahir << "\t\t    |" << endl;
+        cout << "\t\t|Jenis Kelamin     : " << ktp[x].jenisKelamin;
+        cout << "\t  Golongan Darah   : "   << ktp[x].goldar           << "\t    |            " << endl;
+        cout << "\t\t|Alamat            : " << ktp[x].alamat           << "\t\t\t\t    |      " << endl;
+        cout << "\t\t|\tRT/RW             : " << ktp[x].rtrw           << "\t\t\t    |        " << endl;
+        cout << "\t\t|\tKel/Desa          : " << ktp[x].keldes         << "\t\t\t    |        " << endl;
+        cout << "\t\t|\tKecamatan         : " << ktp[x].kec            << "\t\t\t    |        " << endl;
+        cout << "\t\t|Agama             : " << ktp[x].agama            << "\t\t\t\t    |      " << endl;
+        cout << "\t\t|Status Perkawinan : " << ktp[x].statusPernikahan << "\t\t\t\t\t    |    " << endl;
+        cout << "\t\t|Pekerjaan         : " << ktp[x].pekerjaan        << "\t\t\t\t    |      " << endl;
+        cout << "\t\t|Kewarganegaraan   : " << ktp[x].kewarganegaraan  << "\t\t\t\t    |      " << endl;
+        cout << "\t\t|BERLAKU           : SEUMUR HIDUP                           |            " << endl;
+        cout << "\t\t=============================================================" << endl << endl;
     }
 }
 
